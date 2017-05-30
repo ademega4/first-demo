@@ -1,4 +1,4 @@
-const port = process.ENV.port || 7090;
+const port = process.env.port || 7090;
 require("http").createServer((req, res)=>{
     res.statusCode = 200;
     res.setHeader("Content-Type", "text/plain");
